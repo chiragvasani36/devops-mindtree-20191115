@@ -3,7 +3,7 @@ variable "key_name" {
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/Terraform.pem"
+  default = "/var/lib/jenkins/Terraform.pem"
 }
 
 variable "us-east-zones" {
