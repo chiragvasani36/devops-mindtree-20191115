@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "amit-personal-aws"
+  default = "Terraform"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/amit-personal-aws.pem"
+  default = "/root/.ssh/Terraform.pem"
 }
 
 variable "us-east-zones" {
@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-0a6e342b795ebb4b8"
+  default = "sg-0e0de7ce9f51e1e8c"
 }
